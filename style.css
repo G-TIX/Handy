@@ -7,23 +7,44 @@
  margin-left: auto;
  margin-right: auto;
  width: 1000px;
-
 }
 
+.logo {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 25px;
+}
 
 nav {
-  top: 20px;
-  width: 950px;
-  height: 50px;
-  position: relative;
-  margin: 0 auto;
-  background-color: #222931;
+list-style-type: none;
+top: 65px;
+width: 950px;
+height: 50px;
+position: relative;
+margin: 0 auto;
+background-color: #222931;
 
 }
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  text-align: center;
+  padding: 16px 15px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #ffe718;
+}
+
 
 .headerImg {
 position: absolute;
-top: 45px;
+top: 90px;
 left: 0;
 width: 100%;
 z-index: -1;
@@ -43,7 +64,7 @@ top: 670px;
   padding-right: 20px;
 }
 /*--------------------------------------------*/
-.textBox {
+.yellowBox {
 position: absolute;
 background-color: #ffe718;
 width: 100%;
@@ -52,15 +73,21 @@ left: 0;
 top: 950px;
 }
 
+.textBox {
+  text-align: center;
+  margin-top: 40px;
+}
+
 .span1 {
   font-family: fantasy;
 
 }
 
 .footerImg {
+  overflow-x: hidden;
   position: absolute;
   top: 160px;
-  left: 0;
+  left: 0px;
   width: 100%
 }
 /*--------------------------------------------*/
